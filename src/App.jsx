@@ -13,8 +13,8 @@ function App() {
     <Appbar/>
       <Routes>
         <Route path = "/" element = {<Landing></Landing>}></Route>
-        <Route path = "/dashboard" element = {<Suspense fallback={"Loading . . ."}><Dashboard></Dashboard></Suspense>}></Route>
-        <Route path = "/yellow" element = {<Suspense fallback={"Loading . . ."}><Query/></Suspense>}></Route>
+        <Route path = "/registeredUsers" element = {<Suspense fallback={"Loading . . ."}><Dashboard></Dashboard></Suspense>}></Route>
+        <Route path = "/sqlQuery" element = {<Suspense fallback={"Loading . . ."}><Query/></Suspense>}></Route>
       </Routes>
     </BrowserRouter>
   )
@@ -36,14 +36,14 @@ function Appbar(){
 
           <button onClick = {()=>{
             navigate("/");
-          }}>Home</button>
+          }}>Register New User</button>
 
           <button onClick = {()=>{
-            navigate("/dashboard");
+            navigate("/registeredUsers");
           }}>Registered Users</button>
 
           <button onClick = {()=>{
-            navigate("/yellow");
+            navigate("/sqlQuery");
           }}>Query</button>
 
         </div>
