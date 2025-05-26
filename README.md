@@ -31,4 +31,5 @@ cd patient-registration-portal
 npm install
 npm run dev
 ```
-#### You can visit the website hosted here!!! 🔗 https://patient-reg-portal-medblocks.netlify.app/
+## You can visit the website here!!!  
+#### 🔗 https://patient-reg-portal-medblocks.netlify.app/
