@@ -1,7 +1,30 @@
 # patient-registration-portal
-This is a front-end project to be made with Reactjs, Tailwindcss.
+A modern, client-side web application for managing patient data — built using **React**, **TypeScript**, **Tailwind CSS**, and **Shadcn/UI** components. Designed for speed, simplicity, and seamless querying.
 
-##Registering a New Patient, Accessing all registered patients, and sql query are three features of this frontend project.
-Route of Registering a New Patient is completed.
-React-hook-form, tailwind, react, react-dom were used to make this route of this frontend App.
-Now installing PGlite and storing data in DB.
+## ✨ Features
+
+- 🧾 **Add New Patient** – User-friendly form interface to add and register patients.
+- 📊 **View Patient Database** – Browse all registered patient records in a tabular layout.
+- 🧠 **Custom Query Interface** – Run custom queries to filter or extract data with precision.
+
+## 🛠 Tech Stack
+
+- **React** + **Vite** – Blazing-fast development and UI rendering.
+- **TypeScript / TSX** – Strong typing for scalability and robustness.
+- **Tailwind CSS** – Utility-first CSS for styling efficiency.
+- **Shadcn/UI** – Themeable, accessible UI components based on Radix primitives.
+- **Radix UI** – Headless UI components ensuring accessibility and UX best practices.
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- **Node.js** (v18 or higher recommended)
+- Package manager: **bun**, **npm**, **pnpm**, or **yarn**
+
+### 📥 Installation
+
+```bash
+git clone https://github.com/AadhavanSharma/patient-registration-portal.git
+cd patient-registration-portal
+npm install
