@@ -1,5 +1,6 @@
-# patient-registration-portal
+# Patient-registration-portal
 A modern, client-side web application for managing patient data — built using **React**, **TypeScript**, **Tailwind CSS**, and **Shadcn/UI** components. Designed for speed, simplicity, and seamless querying.
+
 
 ## ✨ Features
 
@@ -28,3 +29,6 @@ A modern, client-side web application for managing patient data — built using 
 git clone https://github.com/AadhavanSharma/patient-registration-portal.git
 cd patient-registration-portal
 npm install
+npm run dev
+```
+#### You can visit the website hosted here!!! 🔗 https://patient-reg-portal-medblocks.netlify.app/
